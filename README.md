@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="680" alt="DRH - Dice Forge banner" src="docs/media/ScreenShot_02.png" />
+  <img width="680" alt="DRH - Dice Forge banner" src="docs/media/Logo.png" />
 </div>
 
 <br>
