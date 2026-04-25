@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="680" alt="DRH - Dice Forge banner" src="https://github.com/user-attachments/assets/5c7dd7bd-0a9d-4574-b958-0349e73fbcba" />
+  <img width="680" alt="DRH - Dice Forge banner" src="docs/media/ScreenShot_02.png" />
 </div>
 
 <br>
@@ -81,11 +81,11 @@ It is intended for tabletop creators, dice makers, D&D and RPG artists, board ga
 
 Instead of modeling every die manually from scratch, DRH - Dice Forge helps turn dice creation into a faster, more adjustable, and repeatable workflow.
 
+## Media preview
+
 <!--
 
 ---
-
-## Media preview
 
 ### Demo video
 
@@ -113,20 +113,32 @@ Recommended size: 1280x720 or 960x540.
 </div>
 -->
 
-<!--
-### Screenshots
+
+### Early Screenshots
 
 <div align="center">
 
-| Dice Generation | Label Controls |
-|---|---|
-| <img width="420" alt="DRH - Dice Forge dice generation" src="docs/media/screenshot-generation.png" /> | <img width="420" alt="DRH - Dice Forge label controls" src="docs/media/screenshot-labels.png" /> |
-
-| Body Controls | Color Presets |
-|---|---|
-| <img width="420" alt="DRH - Dice Forge body controls" src="docs/media/screenshot-body-controls.png" /> | <img width="420" alt="DRH - Dice Forge color presets" src="docs/media/screenshot-color-presets.png" /> |
+| Dice Generator Controls |
+|---|
+| <img height="420" alt="DRH - Dice Generator Controls" src="docs/media/ScreenShot_01.png" /> |
 
 </div>
+
+<!--
+
+<details>
+
+  <summary><strong>More Screenshots...</strong></summary>
+
+<div align="center">
+
+| Unit Switching | Dual Unit Display |
+|---|---|
+| <img height="420" alt="Dual Units Pro unit switching" src="docs/media/ScreenShot_01.png" /> | <img height="420" alt="Dual Units Pro dual unit display" src="docs/media/ScreenShot_02.png" /> |
+
+</div>
+
+</details>
 -->
 
 <!--
@@ -171,18 +183,16 @@ Use it to:
 
 ---
 
-## Key features
+### Key Features
 
-- Generate customizable dice meshes inside Blender
-- Support core RPG dice, specialty dice, and custom dice workflows
-- Configure dice body shape, bevels, and roundness
-- Add labels using numbers, symbols, text, or blank faces
-- Use engraved-style or raised-style label relief
-- Adjust label scale, depth, twist, and offset
-- Apply predefined or custom color presets
-- Control label ordering for different dice workflows
-- Support tabletop, RPG, board game, render, prototype, and asset-library use cases
-
+- One-click generation of customizable dice meshes directly in Blender
+- Broad die coverage across core RPG, specialty, and custom generators
+- Deep body-shaping controls for premium-looking dice forms
+- Flexible label system for numbers, symbols, text, and blank faces
+- Engraved or raised face relief for game-ready and render-ready results
+- Built-in color presets plus custom color control
+- Label ordering tools for standard, intercalated, or randomized numbering
+- Useful for tabletop sets, board-game prototypes, asset packs, and product renders
 ---
 
 <details>
@@ -190,38 +200,87 @@ Use it to:
 
 ## Full feature list
 
-### Dice generation
+### Dice Generation
 
-- Generate dice assets directly inside Blender
-- Create tabletop-style dice meshes
-- Build reusable dice models for scenes, asset packs, or prototypes
-- Support faster creation without modeling every die from scratch
-- Help users create multiple dice ideas for tabletop, fantasy, or board game workflows
+- Mesh-based dice generation
+- In-scene dice creation workflow
+- Reusable dice assets for packs, renders, and prototypes
 
-### Supported dice types
+### Core RPG Dice
 
-- Core RPG dice
-- Specialty dice
-- Custom dice workflows
-- Standard tabletop dice sets
-- Unusual dice forms for custom games, prototypes, and stylized collections
+- D2 [Coin]
+- D2 [Roller Shape]
+- D4 [Tetrahedron]
+- D4 [Corner Numbers]
+- D6 [Cube]
+- D8 [Octahedron]
+- D10 [Diamond]
+- D12 [Dodecahedron]
+- D20 [Icosahedron]
+- D100 [50-gonal Bipyramid]
 
-### Body controls
+### Specialty Dice
 
-- Size
-- Height ratio
-- Edge radius
-- Edge segments
-- Round segments
-- Sharper, softer, stylized, or polished dice looks
+- D1 [Rod]
+- D3 [Capped Long Die]
+- D5 [Triangular Gem]
+- D7 [Rounded Long Die]
+- D9 [Rounded Long Die]
+- D11 [Rounded Long Die]
+- D13 [Capped Long Die]
+- D14 [Diamond]
+- D15 [Capped Long Die]
+- D16 [Octagonal Bipyramid]
+- D17 [Capped Long Die]
+- D18 [Diamond]
+- D19 [Capped Long Die]
+- D21 [Capped Long Die]
+- D22 [Diamond]
+- D23 [Capped Long Die]
+- D24 [Tetrakis Hexahedron]
+- D25 [Capped Long Die]
+- D26 [Diamond]
+- D27 [Capped Long Die]
+- D28 [Tetradecagonal Bipyramid]
+- D29 [Capped Long Die]
+- D30 [Rhombic Triacontahedron]
+- D50 [25-gonal Bipyramid]
 
-### Label styles
+### Custom Dice Generators
+
+- Prism
+- Antiprism
+- Bipyramid
+- Capped Long Die
+- Pyramid
+- Coin
+- UV Sphere
+- Octahedron
+- Icosahedron
+- Diamond [Bipyramid]
+
+### Body & Geometry
+
+- Size controls
+- Height ratio controls
+- Bevel radius controls
+- Bevel segment controls
+- Round segment controls
+- Geometry family: Classic
+- Geometry family: Crystal
+- Geometry family: Shard
+- Crystal top shaping
+- Crystal bottom shaping
+- Crystal base shaping
+- Layout modes for face arrangement
+
+### Labels
 
 - Numbers
 - Percentages
-- Roman numerals
+- Roman Numbers
 - Letters
-- Text
+- Custom Text
 - Dots
 - Triangles
 - Squares
@@ -232,40 +291,47 @@ Use it to:
 - Crosses
 - Arrows
 - Blank faces
+- Number range modes
+- Number step modes
+- Custom multiple labels
+- D4 corner numbering support
+- Ambiguous 6/9 marking options
+- Label order: Standard
+- Label order: Intercalate
+- Label order: Randomize
+- Text presets for Yes / No
+- Text presets for Yes / No / Maybe
+- Text presets for Heads / Tails
+- Text presets for True / False
+- Text presets for Success / Fail
+- Text presets for Advantage-style sets
+- Custom text preset workflow
 
-### Label controls
+### Relief & Placement
 
 - Engraved-style labels
 - Raised-style labels
-- Label scale
-- Label depth
-- Label twist
-- Label offset
-- Standard, intercalated, or randomized label ordering
+- Label scale control
+- Label depth control
+- Label twist control
+- Label offset control
+- Font selection support
 
-### Color workflow
+### Color Workflow
 
-- Predefined color presets
-- Custom color workflows
-- Material variation for dice bodies and labels
-- Support for fantasy, premium, stylized, or product-style dice looks
+- Built-in color presets
+- Preset preview thumbnails
+- Custom body color
+- Custom label color
+- Swap body and label colors
+- Apply colors to selected dice
 
-### Tabletop and asset use
+### Workflow & UI
 
-- RPG and D&D-style scenes
-- Board game prototypes
-- Fantasy props
-- Product-style renders
-- Asset packs and reusable dice collections
-- 3D printing concept workflows
-
-### Transparency
-
-- Source-based add-on
-- No obfuscation
-- No binary-only content
-- No external services required
-- No account requirements
+- Reset defaults
+- Settings popup
+- Preferences access
+- Dedicated sections for labels, colors, and body controls
 
 </details>
 
